@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+
+  <body>
+    <h1 class = "title">Welcome to Rock, Paper, Scissors</h1>
+    <p class = "title">To play click on the Rock, Paper, or Scissors.</p>
+    <div id = "image_row">
+      <img src="images/rock.png" alt="Play as Rock" class = "image" id = "rock" onclick ="userClickRock(); compChoice();"/>
+      <img src="images/paper.png" alt="Play as Paper" class = "image" id = "paper" onclick="userClickPaper(); compChoice();"/>
+      <img src="images/scissors.png" alt="Play as Scissors" class = "image" id = "scissors" onclick="userClickScissors(); compChoice();"/>
+    <div id="battle">
+      <div>
+        <img src="images/white.png" alt="Blank White Image" class = "image" id = "user-choice">
+      </div>
+      <div>
+        <img src = "images/white.png" alt="Blank White Image" class = "image" id = "tally-box">
+      </div>
+      <div>
+        <img src="images/white.png" alt="Blank White Image" class = "image" id = "comp-choice">
+      </div>
+
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+
+
+
+<!-- welcome
+instructions,
+tally,
+winns + losses + ties,
+# of draws,
+clear stats,
+functional images instead of buttons,-->
